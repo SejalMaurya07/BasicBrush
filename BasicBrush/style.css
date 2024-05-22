@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(5, 5, 51);
+}
+
+ .navlist{
+  list-style: none;
+}
+
+.heading {
+  display: flex;
+  place-items: center;
+}
+.heading img {
+  margin-right: 10px; 
+  width: 50px;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #f9f9f9;
+}
+.big{
+  padding:20px 50px 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(5, 16, 88); */
+  background-image: radial-gradient(circle , rgb(38, 104, 247),rgb(12, 50, 133),black);
+  box-shadow: 0px 0px 3px 3px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+
+}
+
+.main{
+  /* background-color: rgb(3, 3, 54); */
+  color: #fcfcfc
+}
+ ul{
+  display: flex;
+  gap: 20px;
+
+}
+/* *************** Content Part ***************** */
+.section{
+  padding: 0px;
+  height: 100vh;
+  width:auto;
+  color: white;
+  background-image:url(images/image.jpg) ;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.section h1{
+  color: #a1dfff;
+}
+
+.smallsection1 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  place-content: center;
+}
+
+.cont1{
+  padding: 10px;
+  font-size: 39px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+#id1{
+  padding: 20px;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+
+#id2{
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  position: absolute;
+  bottom: 100px;
+  right: 350px;
+  margin: 0;
+  color: white;
+}
+.section-one {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 3, 77);
+  color: #a1dfff;
+}
+.content1 {
+  color: #a1dfff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
+  text-align: center; /* Centers the text within the content */
+
+}
+
+.smallsection2 {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  place-content: center;
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 35px;
+}
+
+/* ? ************* Section 3************ */
+.section3{
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.section3 h1{
+  color: #a1dfff;
+  font-size: 50px;
+}
+
+.listitem{
+
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 30px;
+ 
+}
+.listitem a{
+
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 30px;
+ 
+}
+
+.section3heading{
+   padding: 20px;
+    display: grid;
+    font-size: 30px;
+    place-items: center;
+}
+
+/* ?========== Section 3 ============== */
+.smallsection3 {
+  padding-left: 100px;
+    display: flex;
+  align-items: center;
+  gap: 50px;
+  place-content: center;
+}
+
+.content3{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 35px;
+}
+
+.image3{
+  height: 100vh;
+  width:4000px;
+  background-image: url(images/social2.jpeg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  
+
+}
+
+
+/* ==================== Section four ============== */
+.smallsection4 {
+  padding-left: 100px;
+    display: flex;
+  align-items: center;
+  gap: 50px;
+  place-content: center;
+}
+
+.content4{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 35px;
+}
+
+.image4{
+  height: 100vh;
+  width:3800px;
+  background-image: url(images/image4.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+/* =========== section 5 =============== */
+
+.smallsection5 {
+  padding-left: 100px;
+    display: flex;
+  align-items: center;
+  gap: 50px;
+  place-content: center;
+}
+
+.content5{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 35px;
+}
+
+.image5{
+  height: 100vh;
+  width:5400px;
+  background-image: url(images/content.jpeg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+/* ========== business management============= */
+.image6{
+  height: 100vh;
+  width:5400px;
+  background-image: url(images/buiness.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+/* ==========  Hiring and Recuirement =========== */
+.image7{
+  height: 100vh;
+  width:6000px;
+  background-image: url(images/hired.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+/* ========== Adverstisment ============= */
+.image8{
+  height: 100vh;
+  width:5000px;
+  background-image: url(images/ad2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ?============ Thank you =================  */
+.smallsectionlast{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ .contentlast{
+  font-size: 30px;
+ }
+
+ .section3heading{
+  padding: 20px;
+   display: grid;
+   font-size: 30px;
+   place-items: center;
+}
+
+/* ?========== Section 3 ============== */
+.smallsectionlast {
+ display: flex;
+ align-items: center;
+ place-items: center;
+ place-content: center;
+
+}
+
+.contentlast{
+  display: flex;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+ display: flex;
+ flex-direction: column;
+ gap: 150px;
+ font-size: 35px;
+
+ 
+}
+.icon {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.icon i {
+  margin: 0 50px;
+  font-size: 40px;
+}
+
+.smallsectionsmile{
+  padding-top: 100px;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  font-size: 60px;
+  justify-items: center;
+  font-weight: bold;
+}
+
+.emoji{
+  height: 200px;
+  width: 200px;
+  background-image: url(images/emoji.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* +++++++++++ animation ++++++++++++++++++ */
+.smallsectionsmile{
+  animation: bigsmall 4s linear infinite ;
+}
+
+.imag{
+  animation: bigsmall 4s linear infinite;
+}
+.image3{
+  animation: bigsmall 4s linear infinite;
+ 
+}
+
+.image4{
+  animation: bigsmall 4s linear infinite;
+}
+
+.image5{
+  animation: bigsmall 4s linear infinite;
+}
+
+.image6{
+  animation: bigsmall 4s linear infinite;
+}
+
+.image7{
+  animation: bigsmall 4s linear infinite;
+}
+
+.image8{
+  animation: bigsmall 4s linear infinite;
+}
+.img{
+  animation: bigsmall 4s linear infinite;
+}
+
+
+@keyframes bigsmall {
+  0%{
+    transform:scale(0.5);
+    
+  }
+  100%{
+    transform: scale(1);
+   
+  }
+}
+
+
